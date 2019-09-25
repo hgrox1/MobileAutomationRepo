@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+
+	<test name="Test Android6">
+		 <parameter name="deviceId" value="02157DF2A1E92B0B" /> 
+		 <parameter name="os" value="Android" />
+		 
+		 <groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+			</run>
+		 </groups>
+		<classes>
+		
+		<!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.SP001_AvailabilityForOOO"></class> -->
+		<!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS003_Rate_category_Restrictions"></class>  -->
+		<!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS008_FreeNightsTest"></class>  -->
+		<!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS017_Reservation_GovtRate"></class>  -->
+		<!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS003_Rate_category_Restrictions"></class>  -->
+          
+         <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.Create_Standalone_reservation"></class>  -->
+         <!--   <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.Create_Standalone_reservation_Member_Login"></class>   -->
+         <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS002_Rate_Sell_Strategy"></class> -->  
+          <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS006_CreateModifiyDeleteCorpID"></class>  -->
+          <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS007_HurdlePoint"></class>   -->
+         <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS019_Rate_category_Restrictions"></class>   -->
+         <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS018_Sell_Through_Room_type"></class> -->   
+         <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS013_Multiavailabilityrequest_Presel"></class> --> 
+           <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS012_MulAvailSpecialReq"></class>   --> 
+           <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS011_MulAvailSpecialEvent"></class>     -->
+        <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS009_Itinerary_Guaranteeres"></class> -->  
+	      <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS014_ReservationHistory"></class>  -->
+		  <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS015_Nonsmoking_accessibleroomtype"></class>  --> 
+		 <!--  <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS017_Reservation_GovtRate">
+				
+			<methods>
+                    <include name="bookingFlowExplicit">
+                        <parameter name="rateKey" value="AAA/CAA Membership Rate"/>
+                    </include>
+           	</methods>
+           	<methods>
+                    <include name="bookingFlowAnonymous">
+                        <parameter name="rateKey" value="AAA/CAA Membership Rate"/>
+                    </include>
+           	</methods>
+		  </class>    --> 
+	 		
+	   <!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS016_Reservation_AAARate">
+			<methods>
+                    <include name="bookingFlowExplicit">
+                        <parameter name="rateKey" value="AAA/CAA Membership Rate"/>
+                    </include>
+           	</methods>
+           	<methods>
+                    <include name="bookingFlowAnonymous">
+                        <parameter name="rateKey" value="AAA/CAA Membership Rate"/>
+                    </include>
+           	</methods> 
+			</class>   -->
+			
+			<!-- <class name="com.ihg.nativeapp.grs.scripts.TOSCA.July2018.GRS017_FreeNight">
+          <methods>
+                    <include name="bookingFlowExplicit">
+           <parameter name="rateKey" value="Chase Anniversary Free Night"/>
+                    </include>
+           	</methods>
+        	</class>   -->
+		</classes>
+		
+	</test>
+</suite>

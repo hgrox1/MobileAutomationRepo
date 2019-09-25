@@ -1,0 +1,10 @@
+target
+*.html
+test-output
+*.css
+.classpath
+*.log
+src/Screenshots
+user.dir
+.project
+.gitattributes

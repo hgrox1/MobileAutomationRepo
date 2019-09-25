@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+    <!-- report theme -->
+    <!-- standard, dark -->
+    <theme>standard</theme>
+  
+    <!-- document encoding -->
+    <!-- defaults to UTF-8 -->
+    <encoding>UTF-8</encoding>
+    
+    <!-- protocol for script and stylesheets -->
+    <!-- defaults to https -->
+    <protocol>https</protocol>
+    
+    <!-- title of the document -->
+    <documentTitle>IHG Test Automation Report</documentTitle>
+    
+    <!-- report name - displayed at top-nav -->
+        <reportName>
+            
+            <![CDATA[
+                <img src='https://upload.wikimedia.org/wikipedia/en/5/5f/Ihg_lkp_vt_rgb_mango_200px.jpg'/>
+            ]]>
+        </reportName>
+    
+    <!-- report name - displayed at top-nav -->
+    <!-- <reportName>IHG Native App Automation</reportName> -->
+    
+    <!-- report headline - displayed at top-nav, after reportHeadline -->
+    <reportHeadline>IHGAutomationReport</reportHeadline>
+    
+    <!-- global date format override -->
+    <!-- defaults to yyyy-MM-dd -->
+    <dateFormat>yyyy-MM-dd</dateFormat>
+    
+    <!-- global time format override -->
+    <!-- defaults to HH:mm:ss -->
+    <timeFormat>HH:mm:ss</timeFormat>
+    
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[
+      $(document).ready(function() {
+                    
+                });
+      ]]>
+    </scripts>
+    
+    <!-- custom styles -->
+    <!-- custom styles -->
+        <styles>
+            <![CDATA[                
+                .report-name { padding-left: 5px; } .report-name > img { float: left;height: 45px;margin-left: 50px;margin-right: 5px;margin-top: 2px;width: 50px; }
+            ]]>            
+        </styles>
+  </configuration>
+</extentreports>
